@@ -29,7 +29,7 @@ module.exports = {
         autoPlayDelay: {//自动播放延迟时间,0不自动播放
             type: Number,
             required: false,
-            default: 0
+            default: 2000
         },
         slideDuration: {//滑动的时间
             type: Number,
