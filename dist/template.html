@@ -1,0 +1,9 @@
+<div class="slider-group">
+  <ul class="slider-content">
+    <li class="slider-item" v-for="item of data" track-by="$index">
+      <a href="{{item[link]}}">
+        <img :src="item[src]">
+      </a>
+    </li>
+  </ul>
+</div>
